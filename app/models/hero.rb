@@ -1,7 +1,7 @@
 class Hero
   attr_accessor :name, :power, :biography
 
-  HEROES = []
+  @@all = []
 
   def initialize(args)
     @name = args[:name]
@@ -11,6 +11,6 @@ class Hero
   end
 
   def self.all
-    HEROES
+    @@all
   end
 end
