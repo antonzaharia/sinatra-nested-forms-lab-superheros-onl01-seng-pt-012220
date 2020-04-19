@@ -7,7 +7,7 @@ class Hero
     @name = args[:name]
     @power = args[:power]
     @biography = args[:biography]
-    HEROES << self
+    @@all << self
   end
 
   def self.all
