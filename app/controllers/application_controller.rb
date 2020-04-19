@@ -6,5 +6,6 @@ class App < Sinatra::Base
 
     get '/' do
       erb :team
+      erb :super_hero
     end
 end
